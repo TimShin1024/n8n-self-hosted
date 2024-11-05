@@ -1,10 +1,8 @@
 {
   "name": "n8n-monorepo",
   "version": "1.66.0",
-  "private": true,
   "engines": {
-  "node": ">=18.17 <=22"",
-    "pnpm": ">=9.5"
+    "node": ">=18.17 <=22"
   },
   "packageManager": "pnpm@9.6.0",
   "scripts": {
