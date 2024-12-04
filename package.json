@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "n8n start",
-    "build": "echo 'No build step required'"
+    "build": "chmod +x setup.sh",
+    "start": "./setup.sh"
   },
   "dependencies": {
-    "n8n": "latest"
+    "n8n": "1.19.1",
+    "pg": "^8.11.3"
   },
   "engines": {
     "node": "20.x"
