@@ -7,7 +7,8 @@
     "start": "./setup.sh"
   },
   "dependencies": {
-    "n8n": "1.19.1",
+    "n8n": "latest",
+     "n8n-nodes-base": "^1.14.1",
     "pg": "^8.11.3"
   },
   "engines": {
